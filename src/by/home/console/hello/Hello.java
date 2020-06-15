@@ -12,5 +12,6 @@ public class Hello {
 		int sum = calculator.sum(a,b);
 		System.out.println("sum = " + sum);
 		System.out.println("Well done!");		
+		System.out.println("Switched to a branch dev");
 	}
 }
