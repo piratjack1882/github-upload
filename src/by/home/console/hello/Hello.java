@@ -1,4 +1,5 @@
 package by.home.console.hello;
+
 public class Hello {
 	
 	public static void main(String [] args) {
