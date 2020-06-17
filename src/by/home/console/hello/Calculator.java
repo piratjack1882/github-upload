@@ -11,4 +11,9 @@ public class Calculator {
 		int result = a - b;
 		return result;
 	}
+
+	public int mul(int a, int b) {
+		int result = a * b;
+		return result;
+	}
 }

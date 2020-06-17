@@ -9,9 +9,14 @@ public class Hello {
 		Calculator calculator = new Calculator();
 		int a = 10;
 		int b = 15;
-		int sum = calculator.sum(a,b);
+		int sum = calculator.sum(a, b);
 		System.out.println("sum = " + sum);
-		System.out.println("Well done!");		
-		System.out.println("This progect in GitHub.com now!!!");
+		System.out.println("Well done!");
+
+		a = 15;
+		b = 25;
+		int mul = calculator.mul(a, b);		
+		System.out.println("mul = " + mul);
+		System.out.println("Well done!");
 	}
 }
